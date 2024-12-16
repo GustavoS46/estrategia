@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  h1 {
+    font-family: "Raleway";
+}
+
+h2 {
+    font-family: "Raleway";
+}
+
+p {
+    font-family: "Lato";
+}
+
+@layer base {
+    .btn {
+        @apply uppercase flex tracking-wider text-white font-semibold font-lato bg-[#4EE1C1] hover:bg-[#2F8D7B] px-4 py-2 rounded-lg 
+    }
+}
